@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NabilSCW</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  text-align: center;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 650px;
+  margin: 15px auto;
+  line-height: 1.7;
+  color: #ccc;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #FFD700;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background: #ffcc00;
+  transform: scale(1.05);
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 420px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  padding: 25px;
+  background: #000;
+  color: #777;
+  font-size: 14px;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO SECTION -->
+<section>
+  <h1>Nabil SCW</h1>
+  <p><strong>Strength • Control • Balance</strong></p>
+  <p>Helping you master bodyweight strength and handstand skills with structured methods.</p>
+  <a href="#programs" class="button">Explore Programs</a>
+</section>
+
+<!-- ABOUT SECTION -->
+<section>
+  <h2>About Me</h2>
+  <p>
+    I’m Nabil, a calisthenics enthusiast focused on handstand mastery and bodyweight strength.
+    I built my skills through structured training, patience, and consistency —
+    and now I share that system with others.
+  </p>
+</section>
+
+<!-- PROGRAMS SECTION -->
+<section id="programs">
+  <h2>Programs & Ebooks</h2>
+
+  <div class="card">
+    <h3>The Handstand Method</h3>
+    <p>Beginner to freestanding progression system</p>
+    <p><strong>Launch Price ₹119</strong></p>
+    <p style="font-size:14px; color:#aaa;">After payment, DM screenshot to receive the PDF via email.</p>
+    
+    <a href="upi://pay?pa=nabilnahim234@oksbi&pn=NabilSCW&am=119&cu=INR" class="button">Buy Now</a>
+  
+</section>
+
+<!-- CONTACT SECTION -->
+<section>
+  <h2>Contact</h2>
+  <p>Instagram: <a href="https://instagram.com/nabilnahimm" target="_blank">@nabilnahimm</a></p>
+  <p>Email: nabilscw@gmail.com</p>
+</section>
+
+<footer>
+  © 2026 NabilsCW. All Rights Reserved.
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+
+</body>
+</html>
